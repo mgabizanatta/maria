@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- FontAwesome CSS -->
+    <script src="https://kit.fontawesome.com/e3dd66c4fb.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>MGZ</title>
+    
+    <style>
+      #title {
+        background-color: #f3dcc3;
+        position: relative;
+        overflow: hidden;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: #fff;
+        text-align: center;
+      }
+      .container-fluid {
+        padding: 3% 15%;
+      }
+      .navbar-custom {
+        background-color: #f3dcc3; 
+      }
+      
+      /* Navigation Bar */
+      .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-bottom: 4.5rem; 
+        color: #fff; 
+      }
+      
+      .navbar {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 4.5rem; 
+      }
+
+      .nav-item {
+        padding: 0 18px;
+      }
+
+      .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        color: #fff; 
+      }
+
+      /* Download Buttons */
+      .download-button {
+        margin: 5% 5% 5% 0;
+      }
+
+      /* Title Image */
+      .title-image {
+        transform: rotate(20deg); 
+        position: absolute;
+      }
+
+      /* Features Section */
+      #features {
+        padding: 7% 15%;
+        text-align: center;
+        background-color: #fff; 
+      }
+      .feature-box {
+        text-align: center;
+        padding: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+      }
+      .feature-box p {
+        color: #555; 
+      }
+      .icon {
+        font-size: 3rem; 
+        color: #2d2c2c; 
+        margin-bottom: 1rem;
+      }
+      .icon:hover {
+        color: #555; 
+      }
+
+      /* Testimonials Section */
+      #testimonials {
+        padding: 7% 15%;
+        text-align: center;
+        background-color: #f3dcc3;
+        color: #fff; 
+        width: 100vw; 
+        margin-left: calc(-50vw + 50%); 
+      }
+      #testimonials h2 {
+        font-family: Georgia, serif;
+        font-size: 2.5rem;
+        color: #fff;
+        font-weight: bold;
+      }
+      .testimonial-image {
+        width: 10%;
+        border-radius: 50%;
+        margin: 10px;
+      }
+
+      /* Carousel Item Padding */
+      .carousel-item {
+        padding: 7% 15%;
+      }
+
+      /* Press Section */
+      #press {
+        background-color: #f3dcc3;
+        text-align: center;
+        color: #fff; 
+        width: 100vw; 
+        margin-left: calc(-50vw + 50%);
+      }
+      .press-logo {
+        width: 10%;
+        margin: 20px 20px 50px;
+      }
+
+      /* Pricing Section */
+      #pricing {
+        padding: 100px;
+      }
+      .pricing-header {
+        color: #000;
+      }
+      .pricing-column {
+        padding: 3% 2%;
+      }
+      .card {
+        padding: 20px;
+        text-align: center;
+      }
+      .card-header {
+        background-color: #f8f9fa;
+      }
+
+      /* Call to Action Section CTA */
+
+      #cta {
+        background-color: #f3dcc3;
+        color: #fff;
+        padding: 7% 15%;
+        text-align: center;
+      }
+
+      .cta-heading {
+        front-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 3.5rem;
+        line-height: 1.5;
+      }
+
+      /* Footer Section */
+      
+      #footer {
+        padding: 7% 15%;
+      }
+
+      .social-icon{
+        margin: 20px 10px;
+      }
+
+
+      /* Media Quary Section */
+
+      @media (max-width: 1028px){
+
+        #title {
+          text-align: center;
+        }
+        .title-image{
+          position:static;
+          transform: rotate(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="title">
+      <!-- Nav Bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+          <a class="navbar-brand" href="#">MGZ</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#features" class="nav-link" href="#">Professional Involvement</a>
+              </li>
+              <li class="nav-item">
+                <a href="#testimonials" class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div>
+          <div>
+            <h1>Fashion Designer & Business Economics Student. 
+            Living in San Diego. 
+            Ready to Make a Diference.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="container">
+      <div class="row">
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-heart icon"></i>
+          <h3>Vice-President</h3>
+          <p> Of Fundraising at Brasa UCSD</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-bullseye icon"></i>
+          <h3>Member</h3>
+          <p>Woman in Business UCSD</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-check-circle icon"></i>
+          <h3>Coordinator</h3>
+          <p>Of Design Sector and Marketing at Help Brazi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Summer Internship at ZM Family Office; Florianopolis, Brazil - 2024 Intern</h2>
+            <img src="https://play-lh.googleusercontent.com/nbTh2fzgcTixFjknaVnO3YiQdhZUhLf_OheDDt4ipxr4xRNrJnQqno-LE3QiipIqoRRi" alt="study image with buddy by eliott-reyna-Unsplashed.com" class="img-fluid testimonial-image">
+            <em>- Conducted financial and cash flow analysis, income statement analysis.</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Summer Internship at Alta Vista Investimentos; São Paulo Brazil - 2024 Intern</h2>
+            <img src="https://media.licdn.com/dms/image/D4D0BAQE_1wqOCIEALA/company-logo_200_200/0/1696542169965/alta_vista_investimentos_logo?e=2147483647&v=beta&t=pGuo5z87yUnLC6IxR1tFHeMBLycz0ilRLiCelT2eLiM" alt="study image with buddy" class="img-fluid testimonial-image">
+            <em>- Performed financial and cash flow analysis, income statement analysis</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Summer Internship at Studio Z; Florianópolis, Brazil - 2022</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP0b8mWzdy3w_ybpq9MG_x9XwSBOvVJQX_5g&s" alt="study image with buddy" class="img-fluid testimonial-image">
+            <em>-Conducted data analysis fashion trends to identify market patterns.</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="container text-center">
+      <h2 class="pricing-header">Skills</h2>
+
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Languages:</h3>
+            </div>
+            <div class="card-body">
+              <p>Portuguese - native</p>
+              <p>English - fluent</p>
+              <p>Italian - basic</p>
+              <p>Spanish - basic</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Design</h3>
+            </div>
+            <div class="card-body">
+              <p>Photoshop - fluent</p>
+              <p>InDesign - fluent</p>
+              <p>Illustrator - fluent</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Code</h3>
+            </div>
+            <div class="card-body">
+              <p>R - Advance</p>
+              <p>Stata - Advance</p>
+              <p>Java - Intermediate</p>
+              <p> CSS - Intermediate</p>
+              <p>HTML - Intermediate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section id="cta">
+      <h3 class="cta-heading">For more information:</h3>
+        <a href="CV_Resume_Curriculo - Maria Gabriela Zanatta (1) (1).pdf">Resume PDF</a>
+    </section>
+    
+
+    <footer id="footer" class="container text-center">
+      <i class="social-icon fa-solid fa-envelope"></i>
+      <p>m1234@gmail.com</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
